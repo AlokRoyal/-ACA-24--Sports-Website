@@ -1,22 +1,44 @@
 # MS Dhoni Tribute Website
 
-A static, multi-page tribute to Mahendra Singh Dhoni. This iteration extends the biography and achievements page with a separate career timeline.
+![HTML](https://img.shields.io/badge/HTML5-pages-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-styling-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)
 
-## Pages and behavior
+A static, multi-page tribute to Mahendra Singh Dhoni. This iteration expands the biography and achievements page with a separate career timeline.
 
-- index.html contains the hero, biography, and achievements.
-- timeline.html presents the timeline as a separate page.
-- Navigation links connect the home and timeline pages.
-- script.js supplies the small browser-side behavior used by the site.
+## Features
 
-## Technology
+- Home page with biography, achievements, and cricket imagery
+- Separate timeline page with its own stylesheet
+- Navigation between the home and timeline pages
+- Small browser-side JavaScript behavior
+- Local image assets; no remote data dependency
 
-HTML5, CSS3, and vanilla JavaScript. style.css styles the home page and styletimeline.css styles the timeline. Images are stored locally beside the pages.
+## How it works
 
-## Run locally
+The browser opens index.html as the entry page. Its links navigate to timeline.html. Each page is authored in HTML and styled with its corresponding CSS file. script.js is loaded for the small interactive behavior in the site. There is no framework, API, or server-side application.
 
-Open index.html in a browser, then use the navigation to visit timeline.html. No installation or build command is needed.
+## Architecture
 
-## Repository map
+Browser → index.html / timeline.html → page stylesheets and script.js → local images
 
-The HTML files contain page content; the two CSS files provide page-specific styling; script.js handles interaction. JPG files provide backgrounds and cricket imagery. Keep assets at their existing paths and retain exact filenames so references resolve on case-sensitive hosting.
+## Start locally
+
+1. Clone or download the repository.
+2. Keep the HTML pages, CSS files, JavaScript, and JPG assets together.
+3. Open index.html in a browser and use the page navigation.
+
+No package manager or compilation is needed. A static server can be used if the browser restricts local file assets.
+
+## Project layout
+
+- index.html — home page and biography
+- timeline.html — timeline page
+- style.css — home page styling
+- styletimeline.css — timeline styling
+- script.js — browser-side interaction
+- JPG files — background and cricket imagery
+
+## Notes
+
+The pages rely on the current relative asset paths. Keep exact filenames and capitalization when deploying to a case-sensitive host. No test or build scripts are configured, and the repository does not list a project license.
