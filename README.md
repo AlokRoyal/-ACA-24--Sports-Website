@@ -1,24 +1,22 @@
 # MS Dhoni Tribute Website
 
-A static, multi-page tribute to Indian cricketer Mahendra Singh Dhoni. It combines a biography and achievements page with a separate career timeline.
+A static, multi-page tribute to Mahendra Singh Dhoni. This iteration extends the biography and achievements page with a separate career timeline.
 
-## Features
+## Pages and behavior
 
-- Biography and achievements on the home page
-- Separate `timeline.html` page with its own stylesheet
-- Small JavaScript interactions
-- Local photographic assets
+- index.html contains the hero, biography, and achievements.
+- timeline.html presents the timeline as a separate page.
+- Navigation links connect the home and timeline pages.
+- script.js supplies the small browser-side behavior used by the site.
 
-## Built with
+## Technology
 
-- HTML5
-- CSS3 (`style.css`, `styletimeline.css`)
-- Vanilla JavaScript (`script.js`)
+HTML5, CSS3, and vanilla JavaScript. style.css styles the home page and styletimeline.css styles the timeline. Images are stored locally beside the pages.
 
 ## Run locally
 
-Open `index.html` in a browser. Use the site navigation to open `timeline.html`. No build tools or dependencies are required.
+Open index.html in a browser, then use the navigation to visit timeline.html. No installation or build command is needed.
 
-## Project files
+## Repository map
 
-`index.html` and `timeline.html` contain the pages; the CSS and JavaScript files support their presentation and behavior. Keep the supplied image files beside the HTML files because the pages reference these local assets.
+The HTML files contain page content; the two CSS files provide page-specific styling; script.js handles interaction. JPG files provide backgrounds and cricket imagery. Keep assets at their existing paths and retain exact filenames so references resolve on case-sensitive hosting.
